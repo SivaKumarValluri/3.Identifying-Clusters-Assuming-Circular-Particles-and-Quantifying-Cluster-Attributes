@@ -1,4 +1,4 @@
-# Identifying clusters of circles and quantifying cluster sizes
+# Identifying clusters assuming circular particles and quantifying cluster attributes
 
 ## Overview ##
 
