@@ -4,6 +4,9 @@
 
 This Python script analyzes the data obtained from segemented images using clustering techniques and generates summary reports in an Excel format. It reads Excel files containing segmented image data, performs agglomerative clustering, and outputs detailed results and summaries.
 
+Here is a optical image of particles segmented to identify individual crystals (even SEM micrographs may be used similarly)
+  ![image](https://github.com/user-attachments/assets/74c6335d-fe17-4bc7-be4c-243ee5eebd38)
+
 ## Module Overview ##
 
 The module includes two functions for analyzing spatial data related to particles and pixel clusters:
@@ -25,6 +28,11 @@ The module includes two functions for analyzing spatial data related to particle
         - Provides visualizations of clusters and estimates the number of clusters and noise points.
         
     - Outputs: Clustering results and visualizations.
+
+Here is the image prorgession of initial optical image, the segmented image the data from which (centroid location and respective particle diameter) are passed onto to the code where each particle is assumed to be circle to define clustering.
+The colored particles are part of clusters while the black particles are isolated.
+![image](https://github.com/user-attachments/assets/a70cde1f-16f1-4a00-b710-5546c03e1965)
+
 
 2.DBSCAN_Clustering_of_Emitting_Pixels(df):
 
@@ -57,6 +65,8 @@ In essence, the module helps analyze and visualize clusters in spatial data, whe
 - Clustering Script: Ensure that the Clustering_Algorithms module containing Agglomerative_Clustering_of_Particles is available in your working directory.
 
 - Excel workbook containing ImageJ processed csv file that contains centroid locations (X,Y) and representative particle size
+
+
 
 ## Script Components ##
 
