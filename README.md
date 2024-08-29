@@ -29,7 +29,7 @@ The module includes two functions for analyzing spatial data related to particle
         
     - Outputs: Clustering results and visualizations.
 
-Here is the image prorgession of initial optical image, the segmented image the data from which (centroid location and respective particle diameter) are passed onto to the code where each particle is assumed to be circle to define clustering.
+Here is the image prorgession of initial optical image, the segmented image the data from which (centroid location and respective particle diameter) are passed onto to the code where each particle is assumed to be circular to define clustering.
 The colored particles are part of clusters while the black particles are isolated.
 ![image](https://github.com/user-attachments/assets/a70cde1f-16f1-4a00-b710-5546c03e1965)
 
