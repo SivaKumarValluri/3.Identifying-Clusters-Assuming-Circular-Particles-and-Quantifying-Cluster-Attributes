@@ -1,4 +1,4 @@
-# Identifying clusters assuming circular particles and quantifying cluster attributes
+# PyCirClusterTracker
 
 ## Overview ##
 
