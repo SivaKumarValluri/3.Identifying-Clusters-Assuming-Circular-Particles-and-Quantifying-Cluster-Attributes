@@ -33,6 +33,8 @@ Here is the image prorgession of initial optical image, the segmented image the 
 The colored particles are part of clusters while the black particles are isolated.
 ![image](https://github.com/user-attachments/assets/a70cde1f-16f1-4a00-b710-5546c03e1965)
 
+The clusters identification and characterstics tracked:
+![image](https://github.com/user-attachments/assets/e25af117-a980-4191-95e3-a570b4cff828)
 
 2.DBSCAN_Clustering_of_Emitting_Pixels(df):
 
