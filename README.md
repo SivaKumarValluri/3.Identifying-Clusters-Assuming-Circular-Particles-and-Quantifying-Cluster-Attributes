@@ -2,7 +2,7 @@
 
 ## Overview ##
 
-This Python script analyzes the data obtained from segemented images using clustering techniques and generates summary reports in an Excel format. It reads Excel files containing segmented image data, performs agglomerative clustering, and outputs detailed results and summaries.
+This Python script analyzes the data obtained from segemented images using clustering techniques and generates summary reports in an Excel format. It reads Excel files containing segmented image data (paricle centroid locations and their representative diameter), performs agglomerative clustering assuming circular particles, and outputs detailed results and summaries.
 
 Here is a optical image of particles segmented to identify individual crystals (even SEM micrographs may be used similarly)
   ![image](https://github.com/user-attachments/assets/74c6335d-fe17-4bc7-be4c-243ee5eebd38)
